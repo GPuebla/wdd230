@@ -1,37 +1,87 @@
 :root {
     /* Define your primary colors */
     --primary-color: #3498db; /* Blue */
-    --secondary-color: #2ecc71; /* Green */
+    --secondary-color: #2c3e50; /* Green */
   
     /* Define your neutral colors */
-    --background-color: #ecf0f1; /* Light Gray */
+    --background-color:  #ecf0f1; /* Light Gray */
     --text-color: #333; /* Dark Gray */
   
     /* Define your accent colors */
-    --accent-color: #e74c3c; /* Red */
+    --accent-color:  #e74c3c; /* Red */
   }
   
 
 *{
     box-sizing: 0;
+    /* border: red solid 1px; */
 }
 
 body{
+    
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--background-color);
+    margin: 0 6rem;
 }
 
 header{
-    display: grid;
-    grid-area: auto 1fr / repeat(4,1fr);
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    color:#ecf0f1;
 }
 
 #profile-photo{
+    padding: 1rem;
     grid-column: 1/2;
 }
 
 #name{
+    margin: auto 0;
+    font-size: 4rem;
+    padding: 1rem;
     grid-column: 2/3;
 }
+
+nav{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color:#ecf0f1;
+}
+
+nav ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    display:grid;
+    justify-items: center;
+    background-color: var(--primary-color);
+    grid-area: auto 1fr/ 1fr 1fr;
+}
+
+footer p{
+    border: #e74c3c solid 1px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#flag {
+    height: 6rem;
+    margin: 0 auto;
+    grid-template-columns: 2/3;
+}
+
+
 
 
