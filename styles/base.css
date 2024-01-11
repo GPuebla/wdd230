@@ -1,0 +1,37 @@
+:root {
+    /* Define your primary colors */
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+  
+    /* Define your neutral colors */
+    --background-color: #ecf0f1; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+  
+    /* Define your accent colors */
+    --accent-color: #e74c3c; /* Red */
+  }
+  
+
+*{
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--background-color);
+}
+
+header{
+    display: grid;
+    grid-area: auto 1fr / repeat(4,1fr);
+}
+
+#profile-photo{
+    grid-column: 1/2;
+}
+
+#name{
+    grid-column: 2/3;
+}
+
+
