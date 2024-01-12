@@ -1,27 +1,26 @@
 :root {
-    /* Define your primary colors */
     --primary-color: #3498db; /* Blue */
     --secondary-color: #2c3e50; /* Green */
   
-    /* Define your neutral colors */
     --background-color:  #ecf0f1; /* Light Gray */
     --text-color: #333; /* Dark Gray */
   
-    /* Define your accent colors */
     --accent-color:  #e74c3c; /* Red */
   }
   
 
 *{
     box-sizing: 0;
-    /* border: red solid 1px; */
 }
 
 body{
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--background-color);
-    margin: 0 10rem;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -75,13 +74,13 @@ nav ul li:hover{
     text-decoration: overline;
 }
 
-a{
+nav a {
     text-decoration: none;
     color: inherit;
 }
 
 main{
-    margin: 1rem 3rem;
+    margin: 1rem 7rem;
     padding-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -138,6 +137,7 @@ footer{
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: 1fr 1fr;
     padding: .5rem 3rem;
+    margin-top: auto;
 }
 
 footer p{
