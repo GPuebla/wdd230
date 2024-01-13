@@ -13,11 +13,6 @@
     /* Red */
 }
 
-
-* {
-    box-sizing: 0;
-}
-
 body {
     display: flex;
     flex-direction: column;
