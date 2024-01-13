@@ -7,10 +7,6 @@
     #couseName {
         min-width: 551px;
     }
-
-    #flag {
-        position: relative;
-    }
 }
 
 @media screen and (max-width: 540px) {
@@ -67,7 +63,6 @@
     }
 
     #flag {
-        position: relative;
         grid-column: 10/12;
         height: 3.5rem;
     }
