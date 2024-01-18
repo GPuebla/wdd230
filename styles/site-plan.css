@@ -30,7 +30,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em;
   font-size: 18px;
   text-align: center;
 }
@@ -150,4 +150,8 @@ nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+#wireframes img {
+  width: 90%;
 }

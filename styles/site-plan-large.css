@@ -1,0 +1,19 @@
+@media screen and (min-width: 540px) {
+
+
+    #wireframes {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        grid-template-rows: 1fr auto;
+        margin: 0;
+    }
+
+    #wireframes h3 {
+        grid-row: 1;
+    }
+
+    #wireframes img {
+        grid-row: 2;
+    }
+
+}
