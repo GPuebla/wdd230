@@ -28,11 +28,14 @@
 
 
 body {
+  border: solid red 1px;
   min-width: 421px;
   margin: 0 auto;
   padding: 2em;
   font-size: 18px;
   text-align: center;
+  overflow-x: hidden;
+
 }
 
 img {
