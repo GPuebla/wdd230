@@ -178,6 +178,6 @@ footer p {
     grid-column: 3/6;
     grid-row: 2/3;
     margin: auto 0;
-    font-size: 1.2rem;
-    color: rgb(245, 252, 42);
+    font-size: 1.3rem;
+    color: rgb(225, 250, 0);
 }
