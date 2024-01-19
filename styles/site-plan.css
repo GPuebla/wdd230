@@ -28,7 +28,7 @@
 
 
 body {
-  max-width: 1200px;
+  min-width: 421px;
   margin: 0 auto;
   padding: 2em;
   font-size: 18px;
