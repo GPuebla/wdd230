@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #396684;
+    --primary-color: #255474;
     /* Blue */
     --secondary-color: #2c3e50;
     /* Green */
 
-    --background-color: #ecf0f1;
+    --background-color: #ffffff;
     /* Light Gray */
     --text-color: #333;
     /* Dark Gray */
@@ -171,6 +171,7 @@ footer p {
     grid-row: 1/2;
     margin: auto 0;
     font-size: 1.7rem;
+    color: var(--background-color);
 }
 
 #lastModification {
@@ -179,5 +180,5 @@ footer p {
     grid-row: 2/3;
     margin: auto 0;
     font-size: 1.3rem;
-    color: white;
+    color: #e1ff00;
 }
