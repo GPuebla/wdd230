@@ -80,8 +80,9 @@ nav a {
 }
 
 main {
-    margin: 1rem 7rem;
+    margin:2rem 7rem;
     padding-top: 2rem;
+    padding: 0 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr auto;
