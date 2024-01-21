@@ -182,3 +182,15 @@ footer p {
     font-size: 1.3rem;
     color: #e1ff00;
 }
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+#menu {
+    display: none;
+}
