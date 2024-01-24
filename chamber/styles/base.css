@@ -1,3 +1,13 @@
 h1 {
     background-color: brown;
 }
+
+.m-img{
+    width: 578px;
+    height: 411px;
+}
+
+.l-img{
+    width: 720px;
+    height: 479px;
+}
