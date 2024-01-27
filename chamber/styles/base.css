@@ -166,3 +166,7 @@ main {
 .hero .hero-img {
   width: 100%;
 }
+
+section{
+  overflow: hidden;
+}
