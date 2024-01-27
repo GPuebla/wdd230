@@ -40,41 +40,36 @@
 
 
 
-    #sect1 {
+    #sect2 {
         grid-row: 1;
         grid-column: 1/8;
 
     }
 
-    #sect2 {
+    #sect3 {
         grid-row: 2;
         grid-column: 4/6;
         border: red solid 1px;
 
     }
 
-    #sect3 {
+    #sect4 {
         grid-row: 3;
         grid-column: 4/6;
     }
 
-    #sect4 {
+    #sect5 {
         grid-row: 4;
         grid-column: 3/7;
     }
 
-    #sect5 {
+    #sect6 {
         grid-row: 5;
         grid-column: 3/7;
     }
 
-    #sect6 {
-        grid-row: 6;
-        grid-column: 4/6;
-    }
-
     #sect7 {
-        grid-row: 7;
+        grid-row: 6;
         grid-column: 4/6;
     }
 
@@ -84,39 +79,54 @@
 
     .simple-section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 4fr;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 2fr 1fr;
         padding: 2rem;
     }
 
-    .simple-section .left-img img {
+    .simple-section img {
+        object-fit: contain;
+        border: red solid 3px;
+    }
+
+    .left-img img {
         grid-column: 1;
-        grid-row: 1/2;
+        grid-row: 1/4;
     }
 
-    .simple-section .left-img h2 {
-        grid-column: 2;
-        grid-row: 1/1;
-    }
-
-    .simple-section .left-img p {
-        grid-column: 2;
-        grid-row: 2/2;
-    }
-
-    .simple-section .right-img img {
+    .left-img h2 {
         grid-column: 2;
         grid-row: 1/2;
     }
 
-    .simple-section .right-img h2 {
-        grid-column: 1;
-        grid-row: 1/1;
+    .left-img p {
+        grid-column: 2;
+        grid-row: 2/3;
     }
 
-    .simple-section .right-img p {
+    .left-img button {
+        grid-column: 2;
+        grid-row: 3/4;
+    }
+
+    .right-img img {
+        grid-column: 2;
+        grid-row: 1/4;
+    }
+
+    .right-img h2 {
         grid-column: 1;
-        grid-row: 2/2;
+        grid-row: 1/2;
+    }
+
+    .right-img p {
+        grid-column: 1;
+        grid-row: 2/3;
+    }
+
+    .right-img button {
+        grid-column: 1;
+        grid-row: 3/4;
     }
 
 
