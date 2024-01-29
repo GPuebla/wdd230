@@ -48,8 +48,6 @@
     #sect3 {
         grid-row: 2;
         grid-column: 2/4;
-        border: red solid 1px;
-
     }
 
     #sect4 {
@@ -84,8 +82,8 @@
     .simple-section {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr 2fr 1fr;
-        border: rebeccapurple solid 2px;
+        grid-template-rows: 1fr 4fr 1fr;
+
     }
 
     .simple-section button {
@@ -93,15 +91,14 @@
         height: 2.6rem;
         font-size: 1.6rem;
         font-weight: 600;
+        margin-bottom: 2rem;
     }
 
     .simple-section img {
-        width: 100%;
-        height: calc(100% - 2rem);
-        /*calc(100% - 0); */
-        /*calc(100% - 0); */
+        width: calc(100% - 4rem);
+        height: calc(100% - 4rem);
         object-fit: cover;
-        margin: 1rem 0;
+        margin: 2rem 2rem;
     }
 
     .left-img img {
@@ -112,11 +109,14 @@
     .left-img h2 {
         grid-column: 2;
         grid-row: 1/2;
+        margin-right: 2rem;
+
     }
 
     .left-img p {
         grid-column: 2;
         grid-row: 2/3;
+        margin: 0 2rem 0 0;
     }
 
     .left-img button {
@@ -132,16 +132,36 @@
     .right-img h2 {
         grid-column: 1;
         grid-row: 1/2;
+        margin-left: 2rem;
     }
 
     .right-img p {
         grid-column: 1;
         grid-row: 2/3;
+        margin: 0 0 0 2rem;
     }
 
     .right-img button {
         grid-column: 1;
         grid-row: 3/4;
+        margin-left: 2rem;
+    }
+
+    .simple-section h2 {
+        font-size: 2em;
+        margin-top: 2rem;
+        margin-bottom: .5rem;
+        justify-content: center;
+        text-align: start;
+        padding: 0;
+    }
+
+    .simple-section p {
+        text-align: justify;
+        font-size: 1.5em;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
     }
 
     #sect3 .grid-3 {
