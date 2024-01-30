@@ -240,7 +240,7 @@ button {
 }
 
 .section-background {
-  padding: 0 2rem;
+  padding: .5rem 2rem;
   background: rgba(136, 73, 143, 0.10);
 }
 
@@ -413,4 +413,16 @@ footer #media #lastModification {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+#sect7 .grid-3 img{
+  width: 250px;
+  height: 250px;
+}
+
+#sect7 .grid-3 p{
+  font-size: .8rem;
+  font-style: oblique;
+  line-height: normal;
+  font-weight: 300;
 }
