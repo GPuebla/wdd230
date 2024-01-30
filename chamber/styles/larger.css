@@ -70,6 +70,11 @@
         grid-column: 2/4;
     }
 
+    #sect8 {
+        grid-row: 7;
+        grid-column: 2/4;
+    }
+
     .hero {
         width: 100%;
     }
@@ -164,7 +169,8 @@
         line-height: 36px;
     }
 
-    #sect3 .grid-3, #sect7 .grid-3 {
+    #sect3 .grid-3,
+    #sect7 .grid-3 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
