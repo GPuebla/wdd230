@@ -1,29 +1,33 @@
-body{
+body {
     width: 100%;
     text-align: center;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
 
-img{
-  background-color: black;
-  animation: fade 15s;
+img {
+    background-color: black;
+    animation: fade 15s;
 }
 
-@keyframes fade{
-    0%{
+P {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@keyframes fade {
+    0% {
         opacity: 0;
         border: solid 3px red;
     }
 
-    100%{
+    100% {
         opacity: 1;
         border: solid 3px white;
     }
 }
-
-
