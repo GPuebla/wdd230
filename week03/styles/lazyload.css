@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    background-color: rgba(0, 255, 255, 0.518);
     text-align: center;
 }
 
@@ -18,10 +17,12 @@ img{
 @keyframes fade{
     0%{
         opacity: 0;
+        border: solid 3px red;
     }
 
     100%{
         opacity: 1;
+        border: solid 3px white;
     }
 }
 
