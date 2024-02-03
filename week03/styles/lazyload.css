@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.518);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+img{
+  background-color: black;
+  animation: fade 15s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
