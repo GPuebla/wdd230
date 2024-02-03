@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Images</title>
+    <link rel="stylesheet" href="../week03/styles/responsive-images.css">
 </head>
 <body>
-    <h1>Responsive Image</h1>
-
-    
-    <picture>
-        <source srcset="elva-480w-close-portrait.jpg" media="(max-width: 500px)"/>
-        <source srcset="elva-800w.jpg" media="(max-width: 100px)"/>
-        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
-        <span>my image</span>
-    </picture>
-    
-</body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)" >
+                <source srcset="images/hero-medium.webp" media="(max-width: 1000px)" >
+                <img src="../week03/images/hero-large.webp" alt="photograph of a beautiful temple" width="1300" height="650">
+            </picture>
+        </div>
+    </main>
+  </body>
 </html>
