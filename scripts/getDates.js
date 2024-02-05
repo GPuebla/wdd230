@@ -1,5 +1,6 @@
 let yearElement = document.querySelector('#year');
 yearElement.innerHTML = '2024';
+const visitsDisplay = document.querySelector(".visits");
 
 // Last Modification: 
 
@@ -30,3 +31,17 @@ modeButton.addEventListener("click", () => {
 		modeButton.textContent = "🌙";
 	}
 });
+
+// Visits
+
+let totalVisits = Number(window.localStorage.getItem("totalVisitsStored")) || 0;
+
+	if (totalVisits !== 0) {
+		visitsDisplay.textContent = " "+totalVisits;
+	} else {
+		visitsDisplay.textContent = ` This is your first visit`;
+	}
+
+totalVisits++;
+
+localStorage.setItem("totalVisitsStored", totalVisits);
