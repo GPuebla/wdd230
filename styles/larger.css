@@ -95,4 +95,16 @@
         font-size: 1.1em;
     }
 
+    /* ----------------------------------------Discover Page-------------------------------------------------------- */
+
+    .discover-page .main-container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+
+    .discover-page .subpage-hero .hero-title {
+        font-size: 1em;
+        color: red;
+    }
+
 }

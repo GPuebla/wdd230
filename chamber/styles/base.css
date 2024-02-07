@@ -529,3 +529,53 @@ footer #media #lastModification {
 .event-card {
   text-align: center;
 }
+
+
+/* ----------------------------------------Discover Page-------------------------------------------------------- */
+.discover-page {}
+
+.discover-page .hero-img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.discover-page .main-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 1500px;
+  margin: 0 auto;
+  border: solid red 2px;
+}
+
+.discover-page .main-container main {
+  display: block;
+  margin: 0;
+  padding: 0;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.discover-page .main-container main picture {
+  margin: 0 auto;
+}
+
+.discover-page .main-container main img {
+  width: 100%;
+
+}
+
+.discover-page .main-container aside {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.discover-page .subpage-hero .hero-title {
+  font-size: 2.4em;
+}
+
+.test-content {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
