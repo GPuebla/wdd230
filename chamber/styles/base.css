@@ -545,7 +545,7 @@ footer #media #lastModification {
   grid-template-columns: 30% 70%;
   max-width: 1500px;
   margin: 0 auto;
-  border: solid red 2px;
+  padding: 0 2rem;
 }
 
 .discover-page .main-container main {
@@ -556,18 +556,16 @@ footer #media #lastModification {
   grid-row: 1;
 }
 
-.discover-page .main-container main picture {
-  margin: 0 auto;
-}
-
 .discover-page .main-container main img {
   width: 100%;
-
+  height: auto;
+  margin: 2rem 0 0 2rem;
 }
 
 .discover-page .main-container aside {
   grid-column: 1;
   grid-row: 1;
+  padding: 2rem 0 0 1rem;
 }
 
 .discover-page .subpage-hero .hero-title {
@@ -575,7 +573,7 @@ footer #media #lastModification {
 }
 
 .test-content {
-  background-color: red;
+  background: rgba(136, 73, 143, 0.55);
   height: 100%;
   width: 100%;
 }
