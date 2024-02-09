@@ -465,4 +465,90 @@
         box-shadow: none;
     }
 
+    /* ----------------------------------------Discover Page-------------------------------------------------------- */
+
+    .discover-page #sect1 {
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .discover-page #sect1 .hero-content {
+        width: 100%;
+    }
+
+    .discover-page #sect1 .hero-content .hero-title {
+        width: 60rem;
+        color: white;
+    }
+
+    .discover-page #sect1 .hero-content #welc-msg {
+        background-color: #8ACB88;
+        color: black;
+        text-align: center;
+    }
+
+
+    /* ----------------------------------------Discover Page-------------------------------------------------------- */
+
+    .discover-page #sect1 {
+        height: 20rem;
+        overflow: hidden;
+    }
+
+    .discover-page #sect1 .hero-content {
+        width: 100%;
+    }
+
+    .discover-page #sect1 .hero-content .hero-title {
+        width: 60rem;
+        font-size: 2.5em;
+        color: white;
+    }
+
+    .discover-page #sect1 .hero-content #welc-msg {
+        background-color: #8ACB88;
+        color: black;
+        text-align: center;
+    }
+
+    .discover-page .main-container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+
+    .discover-page .subpage-hero .hero-title {
+        font-size: 1em;
+        color: red;
+    }
+
+    .discover-page .main-container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        max-width: 1350px;
+        margin: 0 auto;
+
+    }
+
+    .discover-page .main-container main {
+        display: block;
+        margin: 0;
+        padding: 0;
+        grid-column: 2;
+        grid-row: 1;
+        margin: 1.5rem auto;
+    }
+
+    .discover-page .main-container main .discover-img {
+        max-width: 70rem;
+        height: auto;
+    }
+
+    .discover-page .main-container aside {
+        min-width: 336px;
+        grid-column: 1;
+        grid-row: 1;
+        margin: 2rem 0;
+        background: rgba(136, 73, 143, 0.55);
+    }
+
 }
