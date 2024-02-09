@@ -150,7 +150,7 @@ main {
 
 }
 
-main img {
+main img, .calendar {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
 }
 
@@ -530,9 +530,7 @@ footer #media #lastModification {
   text-align: center;
 }
 
-
 /* ----------------------------------------Discover Page-------------------------------------------------------- */
-.discover-page {}
 
 .discover-page .hero-img {
   width: 100%;
@@ -563,9 +561,11 @@ footer #media #lastModification {
 }
 
 .discover-page .main-container aside {
+  min-width: 336px;
   grid-column: 1;
   grid-row: 1;
-  padding: 2rem 0 0 1rem;
+  /* padding: 2rem 0 0 1rem; */
+  background: rgba(136, 73, 143, 0.55);
 }
 
 .discover-page .subpage-hero .hero-title {
@@ -574,6 +574,78 @@ footer #media #lastModification {
 
 .test-content {
   background: rgba(136, 73, 143, 0.55);
-  height: 100%;
   width: 100%;
 }
+
+.calendar {
+  font-family: Arial, sans-serif;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin: 2rem auto;
+}
+
+/* Calendar Header */
+.calendar-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Calendar Days */
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+/* Calendar Day */
+.calendar-day {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.chamber-info {
+  width: 300px;
+  margin: 2rem auto;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chamber-info h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.chamber-info h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.chamber-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.chamber-info ul li {
+  margin-bottom: 5px;
+}
+
+.chart {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+
+.chart .entre-img{
+  height: 100%;
+  width: auto;
+}
+
