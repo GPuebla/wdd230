@@ -427,6 +427,10 @@ footer #quick-lincks {
   grid-column: 1;
 }
 
+footer a{
+  color: white;
+}
+
 footer #other {
   grid-row: 3;
   grid-column: 2;
@@ -730,7 +734,7 @@ aside .chart .entre-img{
 }
 
 .Statistical-graphs h3{
-  color: var(--accent2-color);
+  color: black;
 }
 
 .percentages{
