@@ -150,8 +150,11 @@ main {
 
 }
 
-main img, .calendar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+main img,
+.calendar, 
+#welc-msg, 
+aside .chart{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .45);
 }
 
 .hero {
@@ -179,7 +182,7 @@ main img, .calendar {
   z-index: 2;
 }
 
-.hero .hero-content h1 {
+/* .hero .hero-content h1 {
   margin: 0;
   display: flex;
   width: 20rem;
@@ -194,7 +197,7 @@ main img, .calendar {
   font-style: normal;
   font-weight: 700;
   line-height: 1.99rem;
-}
+} */
 
 .hero .hero-content p {
   display: flex;
@@ -545,17 +548,20 @@ footer #media #lastModification {
   display: block;
   width: 100%;
   color:white;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 800;
+
  }
 
  .discover-page #sect1 .hero-content #welc-msg{
   display: block;
   height: auto;
+  border-radius: 5px;
   padding: .5rem;
   background-color: #8ACB88;
   color: black;
   text-align: center;
+  font-size: .7em;
  }
 
 .discover-page .hero-img {
@@ -575,7 +581,7 @@ footer #media #lastModification {
   display: block;
   margin: 0;
   padding: 0;
-  margin: 1.5rem auto;
+  margin: 0 auto;
 }
 
 .discover-page .main-container main .discover-img{
@@ -597,36 +603,29 @@ footer #media #lastModification {
 }
 
 .middle {
+  width: 100%;
   transition: .5s ease;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
-  top: 85%;
+  top: 99%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.discover-img:hover .img-main-discover {
-  opacity: 0.3;
   border-radius: 20px;
-}
-
-.discover-img:hover .middle {
-  opacity: 1;
 }
 
 .text {
   background-color: var(--primary-color);
   color: white;
-  font-size: 16px;
+  font-size: .8em;
   padding: 16px 32px;
 }
 
 .discover-page .main-container main .img-main-discover {
   width: 100%;
   height: auto;
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 0;
 }
 
 .discover-page .main-container aside {
