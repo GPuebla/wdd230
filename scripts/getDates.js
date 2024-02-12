@@ -2,9 +2,6 @@ let yearElement = document.querySelector('#year');
 yearElement.innerHTML = '2024';
 const visitsDisplay = document.querySelector(".visits");
 
-const rangevalue = document.querySelector("#rangevalue");
-const range = document.querySelector("#pRating");
-
 // Last Modification: 
 
 let nLastModif = Date(document.lastModified);
@@ -50,14 +47,3 @@ totalVisits++;
 localStorage.setItem("totalVisitsStored", totalVisits);
 
 // -------------- Form --------------
-
-// RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
-
-function displayRatingValue() {
-    rangevalue.innerHTML = range.value;
-}
-
-console.log(range);
-console.log(rangevalue);
