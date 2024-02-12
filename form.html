@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <meta name="author" content="Gabriel Puebla">
-    <meta name="description" content="This page contain a form to get info from user and helps it to join us">
+    <meta name="description" content="This page contain aform to get info from user and helps it to join us">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="icon" href="favicon.ico">
 
     <meta property="og:title" content="Applying the principles of web development">
@@ -20,6 +21,69 @@
     <meta property="og:url" content="https://gpuebla.github.io/wdd230/">
 </head>
 <body>
-    
+    <div id="mode">🌙</div>
+    <header>
+         <img id="profile-photo" src="images/my_photo1.webp" alt="profile photo">
+         <span id="name">Gabriel Puebla</span>
+     </header>
+     <a id="menu" href="#"></a>
+     <nav class="noDisplay">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="chamber/index.html">Chamber</a></li>
+             <li><a href="#">Site Plan</a></li>
+             <li><a href="form.html">Form</a></li>
+         </ul>
+     </nav>
+     <main class="form">
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="uname">User Name* </label>
+                <input type="text" name="uname" id="uname" required>
+
+                <label for="password">Password* </label>
+                <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]){8,}">
+
+                <label for="password2">Password Confirmation* </label>
+                <input type="password" name="password2" id="password2" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]){8,}">
+
+                <label for="email">Email* </label>
+                <input type="email" name="email" id="email" placeholder="someemail@email.com" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$">
+
+                <span id="password-error-msg"></span>
+
+                <label for="pRating">Page Rating</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="pRating" name="pRating" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+
+            <input type="submit" value="Sign Me Up" class="submitBtn">   
+
+        </form>
+     </main>
+ 
+     <footer>
+
+             <p id="copyright">&copy;<span id="year"></span>  - Gabriel Alan Puebla - Argentina </p>
+             <img id="flag" src="images/rsz_icon_arg_flag.webp" alt="">
+             <p id="lastModification"></p>
+     </footer>
+ 
+     <script src="scripts/getDates.js"></script>
+ 
 </body>
 </html>

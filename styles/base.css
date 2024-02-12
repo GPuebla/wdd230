@@ -237,3 +237,7 @@ footer p {
 .visits {
     font-weight: 700;
 }
+
+main.form{
+    display: block;
+}
