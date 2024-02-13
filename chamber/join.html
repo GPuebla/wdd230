@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Maipu Chamber Of Commerce</title>
+    <meta name="author" content="Gabriel Puebla">
+    <meta name="description" content="This page provides a detailed presentation of Discover Maipu Chamber of Commerce. It includes sections highlighting the staff, facilities, and services offered by the chamber. Additionally, there are features such as statistical graphs, images of entrepreneurs, and a calendar. Each section aims to inform visitors about different aspects of the chamber's operations and its role within the Maipu community.">
+    
+    <!-- Fonts -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../chamber/styles/base.css">
+    <link rel="stylesheet" href="../chamber/styles/larger.css">
+
+    <!-- Favicon -->
+    
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Media -->
+
+    <meta property="og:title" content="Maipu Chamber Of Commerce - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.argentinaenviaje.com/wp-content/uploads/2020/01/sanrafael-mendoza-med.jpg">
+    <meta property="og:url" content="https://gpuebla.github.io/wdd230/">
+    
+</head>
+<body class="discover-page">
+    <header>
+        <img id="logo" alt="logo" src="../chamber/images/CCM-log.png">
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="/chamber/index.html">Home</a></li>
+                <li><a href="/chamber/discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sect1" class="hero subpage-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Join the Maipu Chamber of Commerce: <br>Uniting Business and Community</h1>
+        </div>
+        <img class="hero-img" alt="A group of people clutching puzzle pieces alluding to unity" src="../chamber/images/join-us-hero.webp">
+        <div class="overlay"></div>
+    </section>
+    
+    <main class="form">
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551238851"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someemail@email.com" required></label>
+                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
+
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="editing" value="yes">Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name="code" value="yes">Coding</label>
+                <label class="sbs"><input type="checkbox" name="process" value="yes">Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name="client" value="yes">FTP Client</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Founding</legend>
+                <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
+                <label class="top"> Course Subject
+                    <Select name="Subject">
+                            <option value="">Please Select &#9662;</option>
+                        <option value="software">Software Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                    </Select>
+                </label>
+                <label class="top">How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+            <input type="submit" value="Propose My Course" class="submitBtn">    
+        </form>
+
+    </main>
+    <footer>
+        <div id="logo-title">
+            <img alt="logo" src="../chamber/images/CCM-log.png">
+            <h4>Maipu Chamber Of Commerce</h4>
+        </div>
+
+        <section id="quick-lincks">
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="">Quick-Link1</a></li>
+                <li><a href="">Quick-Link2</a></li>
+                <li><a href="">Quick-Link3</a></li>
+                <li><a href="">Quick-Link4</a></li>
+                <li><a href="">Quick-Link5</a></li>
+            </ul>
+        </section>
+        <section id="other">
+            <h5>Next Events</h5>
+            <ul>
+                <li><a href="">Next-Events1</a></li>
+                <li><a href="">Next-Events1</a></li>
+                <li><a href="">Next-Events1</a></li>
+                <li><a href="">Next-Events1</a></li>
+                <li><a href="">Next-Events1</a></li>
+            </ul>
+        </section>
+        <section id="media">
+            <h5>Follow Us</h5>
+            <div id="icons">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+            <div id="copy">&copy;<span id="year">0000</span>  - Gabriel Alan Puebla - Argentina</div>
+            <p id="lastModification">Last Modification: 01/01/1900 00:00:00</p>
+        </section>
+    </footer>
+
+    <script src="../chamber/scripts/script.js"></script>
+</body>
+</html>
