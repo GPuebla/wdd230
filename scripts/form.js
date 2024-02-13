@@ -1,7 +1,24 @@
 const rangevalue= document.querySelector("#rangevalue");
 const range = document.querySelector("#pRating");
 
-// RANGE event listener
+const passw1 = document.querySelector("#password");
+const passw2 = document.querySelector("#password2");
+const errorMsg = document.querySelector("#password-error-msg");
+
+passw2.addEventListener('focusout', checkPassMatch)
+
+function checkPassMatch() {
+    if (passw1.value !== passw2.value) {
+        passw1.value=""
+        passw2.value=""
+        passw1.focus()
+        errorMsg.textContent = "Values do not match. Try again"
+    } else {
+        errorMsg.textContent=""
+    }
+}
+
+
 range.addEventListener('change', displayRatingValue);
 range.addEventListener('input', displayRatingValue);
 

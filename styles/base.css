@@ -241,3 +241,12 @@ footer p {
 main.form{
     display: block;
 }
+
+main.form fieldset{
+    width: 100%;
+}
+
+main.form fieldset input{
+    width: 90%;
+    
+}
