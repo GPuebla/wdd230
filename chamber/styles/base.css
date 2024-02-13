@@ -151,9 +151,9 @@ main {
 }
 
 main img,
-.calendar, 
-#welc-msg, 
-aside .chart{
+.calendar,
+#welc-msg,
+aside .chart {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, .45);
 }
 
@@ -427,7 +427,7 @@ footer #quick-lincks {
   grid-column: 1;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
@@ -540,24 +540,24 @@ footer #media #lastModification {
 /* ----------------------------------------Discover Page-------------------------------------------------------- */
 
 .discover-page #sect1 {
- height: 60%;
- overflow: hidden;
+  height: 60%;
+  overflow: hidden;
 }
 
 .discover-page #sect1 .hero-content {
   width: 100%;
- }
+}
 
- .discover-page #sect1 .hero-content .hero-title{
+.discover-page #sect1 .hero-content .hero-title {
   display: block;
   width: 100%;
-  color:white;
+  color: white;
   font-size: 1.1em;
   font-weight: 800;
 
- }
+}
 
- .discover-page #sect1 .hero-content #welc-msg{
+.discover-page #sect1 .hero-content #welc-msg {
   display: block;
   height: auto;
   border-radius: 5px;
@@ -566,12 +566,12 @@ footer #media #lastModification {
   color: black;
   text-align: center;
   font-size: .7em;
- }
+}
 
 .discover-page .hero-img {
   width: 100%;
   object-fit: cover;
-  
+
 }
 
 .discover-page .main-container {
@@ -588,7 +588,7 @@ footer #media #lastModification {
   margin: 0 auto;
 }
 
-.discover-page .main-container main .discover-img{
+.discover-page .main-container main .discover-img {
   max-width: 70rem;
   height: auto;
 }
@@ -714,18 +714,18 @@ aside .chart {
   margin-bottom: 2.5rem;
 }
 
-aside .chart .entre-img{
+aside .chart .entre-img {
   height: 100%;
   width: auto;
 }
 
-@keyframes load{
-  to{
+@keyframes load {
+  to {
     stroke-dasharray: var(--percentage) 100;
   }
 }
 
-.Statistical-graphs{
+.Statistical-graphs {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -733,15 +733,16 @@ aside .chart .entre-img{
   text-align: center;
 }
 
-.Statistical-graphs h3{
+.Statistical-graphs h3 {
   color: black;
 }
 
-.percentages{
-  position:relative;
+.percentages {
+  position: relative;
   margin: 0 auto;
 }
-.percentages span{
+
+.percentages span {
   position: absolute;
   top: 20%;
   left: 0%;
@@ -755,15 +756,16 @@ aside .chart .entre-img{
   justify-content: center;
 }
 
-circle{
+circle {
   fill: none;
   stroke-width: 20;
   transform: rotate(-90deg);
   transform-origin: 50%;
   stroke-dasharray: 100 100;
-  stroke:var(--headline-color-on-color);
+  stroke: var(--headline-color-on-color);
 }
-circle:nth-child(2){ 
+
+circle:nth-child(2) {
   stroke: var(--primary-color);
   stroke-dasharray: 0 100;
   animation: load .35s linear forwards;
@@ -773,7 +775,9 @@ circle:nth-child(2){
 
 .form {
   margin: 0 auto;
+  display: block;
 }
 
-
-
+.form form {
+  display: block;
+}
