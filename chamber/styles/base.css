@@ -897,3 +897,9 @@ main.form {
   /* Alinea el texto horizontalmente a la izquierda */
   vertical-align: top
 }
+
+.tks {
+  max-width: 25rem;
+  display: block;
+  margin: 0 auto;
+}
