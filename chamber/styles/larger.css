@@ -584,4 +584,34 @@
         margin: 1.5rem auto;
     }
 
+    main.form{
+        max-width: 70rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form-style{
+        width:100%;
+        margin:40px auto;
+    }
+
+    .form-style label{
+        max-width: 25rem;
+    }
+
+    .form-style #btn{
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+
+    .form-style .inner-wrap{
+        width: 90%;
+        padding: 30px;
+        background: #F8F8F8;
+        border-radius: 6px;
+        margin-bottom: 15px;
+      }
+
 }
