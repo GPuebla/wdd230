@@ -65,7 +65,7 @@
                 <div class="inner-wrap">
                     <label for="fname">First Name* <input type="text" name="fname" id="fname" title="Please enter your first name" required></label>
                     <label for="lname">Last  Name* <input type="text" name="lname" id="lname" title="Please enter your last name" required></label>
-                    <label for="position">Title / Position <input type="text" name="position" id="position" title="Please enter your title or position within your organization" pattern="[a-zA-Z\s\-]{7,}"></label>
+                    <label for="position">Title / Position <input type="text" name="position" id="position" title="Please enter at least 7 alphabetic characters, hyphens, and spaces only" pattern="[a-zA-Z\s\-]{7,}"></label>
                 </div>
                 <div class="section">Contact Details</div>
                 <div class="inner-wrap">
@@ -84,6 +84,9 @@
                     <label class="sbs"><input type="radio" name="membership" id="silver" value="silver">Silver </label>
                     <label class="sbs"><input type="radio" name="membership" id="gold" value="golden">Gold </label>
                 </div>
+
+                <input type="hidden" id="timestampField" name="timestampField" readonly>
+
                 <input id="btn" type="submit" name="Join Me At" value="Join Me At" />
             </form>
         </div>
@@ -128,5 +131,6 @@
     </footer>
 
     <script src="../chamber/scripts/script.js"></script>
+    <script src="../chamber/scripts/form.js"></script>
 </body>
 </html>
