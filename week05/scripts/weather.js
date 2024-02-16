@@ -11,7 +11,7 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json (); 
             console.table(data); // testing only
-            // displayResults (data); // uncomment when ready } 
+            displayResults (data); // uncomment when ready } 
         }else {
             throw Error (await response.text());
         } 
@@ -21,16 +21,13 @@ async function apiFetch() {
 }
 
 
-function displayResults(data) { currentTemp.innerHTML = `${data.
-}
-} &deg; F`;
-const iconsrc = 'https://openweathermap.org/img/w/${_
-let desc = data.weather[0].
-weatherIcon.setAttribute(' weatherIcon.setAttribute('
-;
-;
-;
-captionDesc.textContent = `${desc}`;
-   
+function displayResults(data) { 
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    console.log(iconsrc);
+    let desc = data.weather[0].icon;
+    weatherIcon.setAttribute('href',iconsrc);
+    // weatherIcon.setAttribute('',___); 
+    captionDesc.textContent = `${desc}`;
 }
 apiFetch();
