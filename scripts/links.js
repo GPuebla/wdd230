@@ -29,13 +29,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
             ul.appendChild(weekLi);
 
-                week.links.forEach(activity => {
+                week.links.forEach((activity, index) => {
                     let aActivity = document.createElement('a');
                     aActivity.textContent = `${activity.title} `;
                     aActivity.setAttribute('href',`${activity.url} `);
                     console.log(activity.url);
+
                     weekLi.append(aActivity);
+
+                    if (index < week.links.length - 1) {
+                        let separator = document.createElement('span');
+                        separator.textContent = "|";
+                        weekLi.appendChild(separator);
+                    }
+
                 });
+
             
 
 
