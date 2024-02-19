@@ -1,7 +1,7 @@
 const baseURL =  "https://gpuebla.github.io/wdd230"
 const linksURL =  "https://gpuebla.github.io/wdd230/data/links.json"
 
-async function apiFetch() {
+async function getLinks() {
     try {
         const response = await fetch (linksURL); 
         if (response.ok) {
@@ -21,4 +21,4 @@ function displayResults(data) {
     console.log("test function")
 }
 
-apiFetch();
+getLinks();
