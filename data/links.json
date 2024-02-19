@@ -1,0 +1,48 @@
+{
+    "weeks": [
+        {
+            "week":"Week 1",
+            "links": [
+                        {"title": "Layout", "url": "https://gpuebla.github.io/wdd230/week01/holygrail.html"},
+                        {"title": "Media", "url": "https://gpuebla.github.io/wdd230/week01/media-query.html"},
+                        {"title": "JS Pen", "url": "https://codepen.io/Gabriel-Puebla/pen/oNVLQxG"},
+                        {"title": "Site Plan", "url": "https://gpuebla.github.io/wdd230/week01/chamber-site-plan.html"}
+            ]
+        },
+        {
+            "week":"Week 2",
+            "links": [
+                {"title": "Design", "url": "https://gpuebla.github.io/wdd230/week02/design.html"},
+                {"title": "Hamburger Menu", "url": "https://codepen.io/Gabriel-Puebla/pen/jOJwPLb"},
+                {"title": "DOM Manipulation", "url": "https://gpuebla.github.io/wdd230/week02/bom.html"}
+            ]
+        },
+        {
+            "week":"Week 3",
+            "links": [
+                {"title": "WebP", "url": "https://gpuebla.github.io/wdd230/week03/images/landscape.webp"},
+                {"title": "LazyLoad", "url": "https://gpuebla.github.io/wdd230/week03/lazyload.html"},
+                {"title": "Responsive Images", "url": "https://gpuebla.github.io/wdd230/week03/responsive-images.html"},
+                {"title": "localStorage", "url": "https://gpuebla.github.io/wdd230/week03/bom.html"}
+              ]
+        },
+        {
+            "week":"Week 4",
+            "links": [
+                {"title": "Pseudo-Classes", "url": "https://codepen.io/Gabriel-Puebla/pen/GReYjRo?editors=0110"},
+                {"title": "CSS-Combinations", "url": "https://gpuebla.github.io/wdd230/images/css-conbinations-practice.png"},
+                {"title": "Table", "url": "https://gpuebla.github.io/wdd230/week04/tablebuild.html"},
+                {"title": "Form", "url": "https://gpuebla.github.io/wdd230/week04/index.html"}
+              ]
+        },
+        {
+            "week":"Week 5",
+            "links": [
+                {"title": "CSS Pseudo-elements", "url": "https://codepen.io/Gabriel-Puebla/pen/QWozzgK?editors=1100"},
+                {"title": "JSon Test", "url": "https://gpuebla.github.io/wdd230/week05/new-ward-members.json"},
+                {"title": "Prophets List", "url": "https://gpuebla.github.io/wdd230/week05/prophets.html"},
+                {"title": "Weather", "url": "https://gpuebla.github.io/wdd230/week05/weather.html"}
+              ]
+        }
+    ]
+}

@@ -250,3 +250,25 @@ main.form fieldset input{
     width: 90%;
     
 }
+
+.weather-card p{
+    padding: 0;
+}
+
+#img-temp-icon{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#temp-icon{
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+#visit-container{
+    
+    margin: .5rem 1.5rem;
+    border-top: solid 1px black;
+}
+

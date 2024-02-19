@@ -46,4 +46,5 @@ totalVisits++;
 
 localStorage.setItem("totalVisitsStored", totalVisits);
 
-// -------------- Form --------------
+// -------------- Weather --------------
+
