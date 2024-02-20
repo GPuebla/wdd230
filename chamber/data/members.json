@@ -1,0 +1,103 @@
+{
+    "members":[
+        {
+          "company_name": "Bodegas Trivento",
+          "link": "https://www.trivento.com/web/index.php",
+          "logo": "https://www.trivento.com/web/img/trivento-logo.png",
+          "address": "Ruta 60 y Canal Pescara, Maipú Mendoza, Argentina",
+          "phone_number": "2643076557",
+          "membership_level": "Gold",
+          "company_size": 500
+        },
+        {
+          "company_name": "Cerebro Curioso",
+          "link": "https://cerebrocurioso.com.ar/",
+          "logo": "https://cerebrocurioso.com.ar/wp-content/uploads/2022/10/cerebro-curioso-logo-blanco.png",
+          "address": "Lencinas 190, Godoy Cruz, Mendoza.",
+          "phone_number": "2612574518",
+          "membership_level": "Bronze",
+          "company_size": 200
+        },
+        {
+          "company_name": "Hipercerámico",
+          "link": "https://tienda.hiperceramico.com/",
+          "logo": "https://tienda.hiperceramico.com/img/hiperceramicos-logo-1660228642.jpg",
+          "address": "Av. Acceso Norte 6.5 KM, Las Heras, Mendoza",
+          "phone_number": "2613693601",
+          "membership_level": "Gold",
+          "company_size": 300
+        },
+        {
+          "company_name": "Barceló",
+          "link": "https://www.barcelo.edu.ar/",
+          "logo": "https://www.barcelo.edu.ar/assets/imgs/iconos/barcelo.svg?v=4",
+          "address": "Patricias Argentinas 198, Maipú, Mendoza",
+          "phone_number": "2614378142",
+          "membership_level": "Silver",
+          "company_size": 400
+        },
+        {
+          "company_name": "Maderera Plástica",
+          "link": "https://www.maderaplasticamendoza.com/",
+          "logo": "https://static.wixstatic.com/media/448e8b_049faede56f6439cb6a190b6fd7b27e0~mv2.png/v1/fill/w_413,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MPMletranegra.png",
+          "address": "Av. Colón 460, M5500CVG Capital, Mendoza",
+          "phone_number": "2613192541",
+          "membership_level": "Bronze",
+          "company_size": 50
+        },
+        {
+          "company_name": "Reciclarg",
+          "link": "https://reciclarg.com/",
+          "logo": "https://reciclarg.com/wp-content/uploads/2021/06/logoweb-reciclarg.png",
+          "address": "Lopez de Gomara 921, Guaymallén, Mendoza",
+          "phone_number": "2614219497",
+          "membership_level": "Silver",
+          "company_size": 100
+        },
+        {
+          "company_name": "Super A.",
+          "link": "https://supera.com.ar/",
+          "logo": "https://supera.com.ar/wp-content/uploads/2020/10/logo_super_a.png",
+          "address": "San Martín 8113, Luján de Cuyo, Mendoza",
+          "phone_number": "2643076978",
+          "membership_level": "Bronze",
+          "company_size": 400
+        },
+        {
+          "company_name": "Diagnostico Maipu",
+          "link": "https://www.diagnosticomaipu.com/",
+          "logo": "https://www.diagnosticomaipu.com/images/2022/nuevalanding/elementos_landing-03.png",
+          "address": "Maza y palma, M5515 Maipú, Mendoza",
+          "phone_number": "2612574939",
+          "membership_level": "Silver",
+          "company_size": 150
+        },
+        {
+          "company_name": "Iselin",
+          "link": "https://www.iselin.com.ar/",
+          "logo": "https://www.iselin.com.ar/Content/images/LayoutWeb/logoheader1.png",
+          "address": "Av. Gdor. Ricardo Videla, M5519 Mendoza",
+          "phone_number": "2613694022",
+          "membership_level": "Gold",
+          "company_size": 400
+        },
+        {
+          "company_name": "Cata International",
+          "link": "https://www.catainternacional.com/",
+          "logo": "https://www.catainternacional.com/images/cata-internacional-mendoza-.png",
+          "address": "Diamante 550, M5501 Godoy Cruz, Mendoza",
+          "phone_number": "2614378563",
+          "membership_level": "Bronze",
+          "company_size": 600
+        },
+        {
+          "company_name": "Vaypol",
+          "link": "https://www.vaypol.com.ar/",
+          "logo": "https://www.vaypol.com.ar/brandlogos/vaypol.webp",
+          "address": "Tropero Sosa 441, M5515 Maipú, Mendoza",
+          "phone_number": "2613192962",
+          "membership_level": "Silver",
+          "company_size": 50
+        }
+    ]      
+}
