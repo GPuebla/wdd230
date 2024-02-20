@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         members.forEach( member => {
     
             let card = document.createElement('section');
+            card.setAttribute('class','card');
             let logo = document.createElement('img');
 
 
