@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
             let address = document.createElement('p');
             address.textContent = `Address: ${member.address}`;
             
-            let link = document.createElement('p');
+            let link = document.createElement('a');
+            link.setAttribute('href',member.link)
             link.textContent = `${member.link}`;           
     
             companyName.textContent = `${member.company_name}`;
@@ -48,6 +49,25 @@ document.addEventListener("DOMContentLoaded", function() {
     
         });
     }
+
+    const gridbutton = document.querySelector("#grid");
+    const listbutton = document.querySelector("#list");
+    const display = document.querySelector("article");
+
+
+    gridbutton.addEventListener("click", () => {
+        
+        console.log('grid'); 
+        display.classList.add("grid");
+        display.classList.remove("list");
+    });
+
+    listbutton.addEventListener("click", () => {
+        
+        console.log('list'); 
+        display.classList.add("list");
+        display.classList.remove("grid");
+    });
 
     getMemberData();
 
