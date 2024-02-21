@@ -930,12 +930,16 @@ main.form {
   font-size: 1.5em;
 }
 
-.directory #members-container {
+.directory article {
+  margin-bottom: 2rem;
+}
+
+.directory .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-.directory #members-container .card {
+.directory .grid .card {
   width: 390px;
   height: 280px;
   margin: 0 auto;
@@ -946,7 +950,7 @@ main.form {
   text-align: center;
 }
 
-.directory #members-container .card img {
+.directory .grid .card img {
   width: 100%;
   height: 100px;
   background-color: #88498fd2;
@@ -957,11 +961,39 @@ main.form {
 
 }
 
-#members-container .card h2,
-#members-container .card p {
+.card h2,
+.card p {
   margin-bottom: .5rem;
 }
 
+
 .list {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.list .card {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1f 1fr;
+  margin: 0 1rem;
+  padding: 0.9rem;
+  
+}
+
+.list .card>* {
+  margin: .1rem 1rem;
+}
+
+.list .card img {
+  display: none;
+}
+
+.list .card h2 {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-bottom: .4rem;
+}
+
+.list .card:nth-child(odd) {
+  background-color: #88498f8c;
 }

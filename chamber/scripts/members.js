@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
             companySize.textContent = `+${member.company_size} employees`;
             
             let link = document.createElement('a');
-            link.setAttribute('href',`https://${member.link}`)
+            link.setAttribute('href',`https://${member.link}`);
+            link.setAttribute('target',`_blanck`);
             link.textContent = `${member.link}`;           
     
             companyName.textContent = `${member.company_name}`;
