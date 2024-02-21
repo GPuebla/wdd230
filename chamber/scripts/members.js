@@ -26,10 +26,16 @@ document.addEventListener("DOMContentLoaded", function() {
            
     
             let address = document.createElement('p');
-            address.textContent = `Address: ${member.address}`;
+            address.textContent = `${member.address}`;
+
+            let phoneNumber = document.createElement('p');
+            phoneNumber.textContent = `${member.phone_number}`;
+
+            let companySize = document.createElement('p');
+            companySize.textContent = `+${member.company_size} employees`;
             
             let link = document.createElement('a');
-            link.setAttribute('href',member.link)
+            link.setAttribute('href',`https://${member.link}`)
             link.textContent = `${member.link}`;           
     
             companyName.textContent = `${member.company_name}`;
@@ -43,6 +49,8 @@ document.addEventListener("DOMContentLoaded", function() {
             card.appendChild(logo);
             card.appendChild(companyName); 
             card.appendChild(address);
+            card.appendChild(phoneNumber);
+            card.appendChild(companySize);
             card.appendChild(link);
             
     
