@@ -993,6 +993,10 @@ main.form {
   margin-bottom: .45rem;
 }
 
+.list .card a {
+  color: black;
+}
+
 .list .card:nth-child(odd) {
   background-color: #88498f8c;
 }
