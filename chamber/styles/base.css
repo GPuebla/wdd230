@@ -977,7 +977,7 @@ main.form {
   grid-template-columns: 2fr 1fr 1fr 1f 1fr;
   margin: 0 1rem;
   padding: 0.9rem;
-  
+
 }
 
 .list .card>* {
@@ -991,7 +991,7 @@ main.form {
 .list .card h2 {
   font-size: 1rem;
   font-family: Roboto, Helvetica, sans-serif;
-  margin-bottom: .4rem;
+  margin-bottom: .45rem;
 }
 
 .list .card:nth-child(odd) {
