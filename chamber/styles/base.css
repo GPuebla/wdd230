@@ -265,6 +265,10 @@ main {
   grid-row: 7;
 }
 
+#sect9 {
+  grid-row: 8;
+}
+
 .hero {
   width: 100%;
 }
@@ -412,6 +416,12 @@ footer #quick-lincks {
 
 footer a {
   color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer li {
+  margin-top: .5rem;
 }
 
 footer #other {
@@ -998,4 +1008,23 @@ main.form {
 
 .list .card:nth-child(odd) {
   background-color: #88498f8c;
+}
+
+#sect9 img {
+  width: 200px;
+  height: 100px;
+  object-fit: scale-down;
+  background-color: #88498F;
+  padding: 2rem;
+  margin: 1rem auto;
+
+}
+
+#memberspro section {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#memberspro section img {
+  width: 80%;
 }

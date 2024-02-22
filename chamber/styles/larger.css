@@ -141,6 +141,13 @@
         grid-column: 2/4;
     }
 
+    #sect9 {
+        margin-top: 3rem;
+        grid-row: 8;
+        grid-column: 2/4;
+        height: 350px;
+    }
+
     .hero {
         width: 100%;
     }
@@ -304,7 +311,8 @@
 
 
     #sect3 .grid-3,
-    #sect7 .grid-3 {
+    #sect7 .grid-3,
+    #sect9 .grid-3 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
@@ -480,7 +488,7 @@
     .discover-page #sect1 .hero-content .hero-title {
         width: 60rem;
         font-size: 2.5em;
-        color: black;
+        color: white;
     }
 
     .discover-page #sect1 .hero-content #welc-msg {
