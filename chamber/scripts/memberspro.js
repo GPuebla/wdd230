@@ -21,11 +21,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         console.log(mspro + 'FILTER')
 
-        const display= (member, elemetContainer) => {
+        const display= (member, elemetContainer, linkElement) => {
 
             let card = document.createElement('section');
             let logo = document.createElement('img');
             let companyName = document.createElement('h2');
+
+            let link = document.createElement('a');
+            link.setAttribute('href',`${member.link}`);
+            link.textContent = `${member.company_name}`;
     
             companyName.textContent = `${member.company_name}`;
             logo.setAttribute('src', member.logo);
@@ -39,11 +43,16 @@ document.addEventListener("DOMContentLoaded", function() {
             card.appendChild(companyName);             
     
             elemetContainer.appendChild(card);
+            linkElement.appendChild(link);
+
+
         }
 
-        display(members[0],memberspro);
-        display(members[1],memberspro);
-        display(members[2],memberspro);
+        display(members[0],memberspro,m1);
+        display(members[1],memberspro,m2);
+        display(members[2],memberspro,m3);
+
+        console.log(m1);
     }
     
     getMemberData();
