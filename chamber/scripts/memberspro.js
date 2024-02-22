@@ -12,14 +12,24 @@ document.addEventListener("DOMContentLoaded", function() {
         data = await response.json()
 
         displayMembersPro(data.members);
-        console.table(data.members) // test
+        // console.table(data.members) // test
     };
 
     const displayMembersPro = (members) => {
 
-        const mspro = members.filter((member) => member.membership_level === "gold" || member.membership_level === "silver");
+        const mspro = members.filter((member) => member.membership_level === "Gold" || member.membership_level === "Silver");
 
-        console.log(mspro + 'FILTER')
+        const indexes = []
+
+        while (indexes.length < 3) {
+            const randomN = Math.floor(Math.random() * mspro.length);
+
+            if (!indexes.includes(randomN)) {
+
+                indexes.push(randomN);
+
+            }
+        }
 
         const display= (member, elemetContainer, linkElement) => {
 
@@ -48,11 +58,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         }
 
-        display(members[0],memberspro,m1);
-        display(members[1],memberspro,m2);
-        display(members[2],memberspro,m3);
-
-        console.log(m1);
+        display(mspro[indexes[0]],memberspro,m1);
+        display(mspro[indexes[1]],memberspro,m2);
+        display(mspro[indexes[2]],memberspro,m3);
     }
     
     getMemberData();
