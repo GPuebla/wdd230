@@ -480,7 +480,7 @@
     .discover-page #sect1 .hero-content .hero-title {
         width: 60rem;
         font-size: 2.5em;
-        color: white;
+        color: black;
     }
 
     .discover-page #sect1 .hero-content #welc-msg {
@@ -658,6 +658,7 @@
 
     .list .card>* {
         margin: .1rem 1rem;
+        text-align: start;
     }
 
     .list .card img {
@@ -670,8 +671,8 @@
         margin-bottom: .45rem;
     }
 
-
-
-
+    .list .card {
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    }
 
 }

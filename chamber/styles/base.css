@@ -974,7 +974,6 @@ main.form {
 
 .list .card {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1f 1fr;
   margin: 0 1rem;
   padding: 0.9rem;
 }
