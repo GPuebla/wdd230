@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
             let companyName = document.createElement('h2');
 
             let link = document.createElement('a');
-            link.setAttribute('href',`${member.link}`);
+            link.setAttribute('href',`https://${member.link}`);
             link.textContent = `${member.company_name}`;
     
             companyName.textContent = `${member.company_name}`;
