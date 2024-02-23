@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         data = await response.json()
 
         displayMembersPro(data.members);
-        // console.table(data.members) // test
+        console.table(data.members) // test
     };
 
     const displayMembersPro = (members) => {
