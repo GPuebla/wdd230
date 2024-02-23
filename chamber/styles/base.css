@@ -167,10 +167,15 @@ aside .chart {
   position: absolute;
   left: 5%;
   top: .5%;
-  width: 60%;
+  width: 100%;
   z-index: 4;
   margin: 0;
 }
+
+.hero .hero-content h1{
+  font-size: 1.6em;
+}
+
 
 .overlay {
   position: absolute;
@@ -184,14 +189,14 @@ aside .chart {
 
 .hero .hero-content p {
   display: flex;
-  width: 20rem;
+  width: 23rem;
   height: 7rem;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
   color: var(--accent1-color);
   font-family: Merriweather;
-  font-size: .9rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -210,7 +215,7 @@ button {
   justify-content: center;
   align-items: center;
   height: 4rem;
-  color: var(--accent2-color);
+  color: white;
   font-family: var(--heading-font);
   font-size: 2rem;
   font-weight: 600;
@@ -221,8 +226,8 @@ button {
 }
 
 .hero-content button {
-  height: 1.8rem;
-  font-size: 1.2rem;
+  height: 1.9rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: normal;
   border-radius: 0.3rem;
