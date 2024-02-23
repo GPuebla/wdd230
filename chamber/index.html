@@ -53,7 +53,7 @@
         <div class="hero-content">
             <h1>Welcome Maipu Chamber Of Commerce</h1>
             <p>Discover unlimited opportunities with our Chamber of Commerce: boost your business, connect with leaders and thrive together in a business community.</p>
-            <button class="button-hero">Join Us</button>
+            <button class="button-hero" id="joinButton">Join Us</button>
         </div>
         <img class="hero-img" alt="" src="../chamber/images/viñedos-Maipu-hero-larger.jpg">
         <div class="overlay"></div>
@@ -181,6 +181,12 @@
             <p id="lastModification">Last Modification: 01/01/1900 00:00:00</p>
         </section>
     </footer>
+
+    <script>
+        document.getElementById("joinButton").addEventListener("click", function() {
+            window.location.href = "https://gpuebla.github.io/wdd230/chamber/join.html";
+        });
+    </script>
 
     <script src="../chamber/scripts/script.js"></script>
     <script src="../chamber/scripts/memberspro.js"></script>
